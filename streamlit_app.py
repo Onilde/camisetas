@@ -4,8 +4,8 @@ from supabase import create_client, Client
 
 # ----------- CONFIGURAÇÃO SUPABASE -----------
 
-SUPABASE_URL = "https://<seu-projeto>.supabase.co"  # <--- substitua aqui
-SUPABASE_KEY = "<sua-chave-anon>"                   # <--- substitua aqui
+SUPABASE_URL = "https://uodegxbqdpswhyjdckwv.supabase.co"  # <--- substitua aqui
+SUPABASE_KEY = "<sb_publishable_S21-ylfyHtSA3-NuqFeF_Q__d1ZWxrI>"                   # <--- substitua aqui
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
